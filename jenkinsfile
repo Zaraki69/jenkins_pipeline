@@ -1,5 +1,6 @@
 pipeline // declarative pipeline always starts with keyword 'pipeline'
 {
+    agent any
     stages // all the stages of the pipelines
     {
         stage ("print a message") // name of a stage
