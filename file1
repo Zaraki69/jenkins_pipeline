@@ -1,0 +1,22 @@
+pipeline 
+{
+    agent any 
+    stages{
+        stage("pre-build activity: scm checkout")
+           { steps{
+                echo "GIT is cloning"
+            }
+        }
+     
+        stage("validate")
+        {
+            steps{ 
+                echo "validating the code"
+            }
+        }
+        stage("print a messgae")
+        {
+            steps{echo "suprise surprise MF"}
+        }
+    }
+}
