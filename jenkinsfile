@@ -4,7 +4,7 @@ pipeline // declarative pipeline always starts with keyword 'pipeline'
     {
         stage ("print a message") // name of a stage
         {
-            steps { echo "jenkins by shubham gajjewar"} // things what to perform in a stage is a step
+            steps { echo "jenkins by shubham gajjewar"} // things to perform in a stage is a step
 
         }
     }
